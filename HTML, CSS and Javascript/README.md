@@ -1,4 +1,4 @@
-# HTML, CSS and Javascript
+# HTML, CSS and Javascript Assignments
 
 The Project is designed in an online platform codepen.io and later files were exported. The mini Project and Assignments
 are from Coursera Course named HTML, CSS and JavaScript. The Main Objective of these mini - projects were to study Html,
