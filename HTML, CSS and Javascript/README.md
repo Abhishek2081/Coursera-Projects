@@ -8,6 +8,7 @@ me to learn how images can be used and coded to bring desired changes and filter
 It Helps to clear your Javascript concepts to a great extent also learnt how Green-Screen Algorithm is used in Movies for 
 animation.
 
-**Refer to src for codepen run files and dist for Html runnable files**
+**Refer to src for codepen run files and dist for Html runnable files also refer to pdf for instructions also you may 
+practice javascript online on https://www.dukelearntoprogram.com//course1/example/index.php**
 
 **Note : The Images may be subject to copyright by Duke University, USA**
