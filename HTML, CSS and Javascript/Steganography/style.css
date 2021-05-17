@@ -1,0 +1,74 @@
+.container {
+  --main-color: hsl(100, 60%, 65%); 
+  --darker-color:  hsl(120, 25%, 44%);
+  font-family: monospace;
+  font-size: 14px;
+  margin-top: 50px;
+  }
+
+h3 {
+  font-size: 20px;
+  }
+
+.buttons {
+  border-radius: 5px;
+  width:120px;
+  height: 40px;
+  background-color: var(--main-color);
+  font-size: 14px;
+  }
+
+.buttons:hover{
+  background-color: var(--darker-color);
+}
+
+.combine{
+  width:375px;
+  height: 40px;
+  background-color: var(--darker-color);
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.combine:hover{
+  background-color: var(--main-color);
+}
+
+a{
+  color: var(--darker-color);
+}
+
+a:hover{
+  color: var(--main-color);
+}
+
+canvas {
+  width: 300px;
+  hieght: 500px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px solid var(--main-color);
+  border-radius: 5px;
+  }
+
+.descr{
+  width: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block; 
+}
+
+.canvasTextBlock{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.blockWithButtons{
+  margin-top: 20px;
+}
+
+input {
+  font-family: monospace;
+  font-size: 14px;
+}

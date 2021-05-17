@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Steganography image generator (coursera, Programming Foundations with JavaScript, HTML and CSS by Duke University)</title>
+  
+      <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html lang="en">
+ <head>  
+  <meta charset="UTF-8"> 
+  <title>Steganography image generator</title>
+  <script src = "https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+  </script> 
+ </head>
+ <body>
+  <div class = "container" align="center"> 
+   <h3>Steganography image generator</h3>
+    
+    <div>(<a href = "https://www.coursera.org/learn/duke-programming-web/supplement/66nD3/steganography-review" target = "_blank">click here for steganography review</a>)</div>
+    <br>
+    <div>project done as an extra challenge  by <a href = "https://codepen.io/abhishek2081/" target="_blank">Abhishek Agashe</a><br>while taking <a href = "https://www.coursera.org/learn/duke-programming-web/home/week/3" target="_blank">Programming Foundations with JavaScript, HTML and CSS</a><br>    MOOC by Duke University.</div>
+      
+   <div class = "canvasTextBlock">
+    <div class = "descr" >image 1</div> 
+    <div class = "descr" >image 2</div> 
+    <div class = "descr" >Steganography image</div> 
+     <div> 
+     <canvas id = "C1"></canvas>
+     <canvas id = "C2"></canvas>
+     <canvas id = "C3"></canvas>
+    </div>  
+   </div>
+   <p>upload image 1: <input type = "file" multiple = "false" accept = "image/*" id = "pic1" onchange = "upload1()"></p>
+   <p>upload image 2: <input type = "file" multiple = "false" accept = "image/*" id = "pic2" onchange = "upload2()"></p>
+    
+   <div class = "blockWithButtons"> 
+    <p>
+    <input type = "button" value = "crop 1" onclick = "doCropimage1()" class = "buttons">
+    <input type = "button" value = "chop 1" onclick = "CHOP1()" class = "buttons">
+    <input type = "button" value = "shift 1" onclick = "SHIFT1()" class = "buttons">
+    </p>
+    <p>
+    <input type = "button" value = "crop 2" onclick = "doCropimage2()" class = "buttons">
+    <input type = "button" value = "chop 2" onclick = "CHOP2()" class = "buttons">
+    <input type = "button" value = "shift 2" onclick = "SHIFT2()" class = "buttons">
+    </p>
+    <p>
+    <input type = "button" value = "Generate steganographic image" onclick = "docombine()" class = "combine">
+    </p>
+   </div>  
+  </div>
+ </body>
+</html>
+  
+  
+
+    <script  src="index.js"></script>
+
+
+
+
+</body>
+
+</html>
