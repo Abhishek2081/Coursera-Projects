@@ -1,4 +1,4 @@
-#Java Programming to implement Vigenere Breaker
+# Java Programming to implement Vigenere Breaker
 
 As a part of this course cyptography techniques like Caesar Cipher and Vigenere Cipher alongwith 
 algorithm to break the cipher was implemented. An Integer Key or String was used to encrypt text,
