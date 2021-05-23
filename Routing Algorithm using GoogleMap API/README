@@ -1,3 +1,10 @@
+#Routing Algorithm implementation using Google Map API
+
+This Project Contains Assignments of Two Weeks and then the Implemented Mini-Project by developing Advanced Shortest
+Path Algorithms like A-star by first studying and implementing BFS and Dijkstra and creating Specialised class for using
+this Algorithm smoothly and Refractoring with Commenting in Every Section for Peer Review.
+
+Following was the Provided Readme and Skeleton for Project From UCSD Team of the Coursera Course for ADS in Java:
 /-------------------------------------------------------------------------
 / Starter Code and GUI Application for Course 3 in the
 / Java Programming: Object Oriented Design of 
